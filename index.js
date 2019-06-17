@@ -80,6 +80,6 @@ function watchForm() {
 
 $(function() {
   console.log('App loaded! Waiting for submit!');
-  $(".dog-number").attr("value", 3);
+  $(".dog-number").attr("value", "Al");
   watchForm();
 });
